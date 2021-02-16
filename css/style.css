@@ -61,6 +61,8 @@ input#xxx {
     background-color: rgb(70, 70, 70);
     color: white;
     font-weight: bolder;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: large;
 }
 
 select {
