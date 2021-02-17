@@ -13,6 +13,7 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+    background-image: url(../img/matrix.gif);
 }
 
 header {
@@ -75,21 +76,41 @@ select {
     background-position-y: center;
 }
 
+.center {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 100%;
+    background-color: #202121;
+    text-align: center;
+}
+
+.icon {
+    width: 58px;
+    height: 58px;
+    margin: -12px;
+    cursor: pointer;
+}
+
 #sessao { 
     background-color: #ffffffbb;
     border-radius: 10px
-}
-
-footer {
-    background-color: #202121;
-    text-align: center;
-    border-radius: 10px;
 }
 
 .corpo {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    background-color: #202121;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .picture {
@@ -139,7 +160,7 @@ footer {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 90%;
     margin: auto;    
 }
 
